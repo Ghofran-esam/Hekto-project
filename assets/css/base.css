@@ -1,0 +1,74 @@
+/*public format*/
+:root{
+    --MainColor:#FB2E86;
+    --SecondColor:#EEEFFB;
+    --ThirdColor:#8A8FB9;
+    --TextColor:#151875;
+}
+body{
+    font-family: 'lato';
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:calc( ( 100% - 300px ));
+    margin:auto;
+}
+input{
+    outline: none;
+  
+}
+
+.row{
+
+display: flex;
+
+
+justify-content:center ;
+flex-wrap: wrap;
+align-items: center;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+  
+}
+.border_0{
+border: 0;
+}
+form{
+    border: 2px solid #E7E6EF;
+ 
+   
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+/*public media*/
+@media screen and (max-width:900px){
+   
+    .container{
+        width:calc( ( 100% - 100px )) ;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+   
+    .container{
+     width:90%;
+   
+    }
+}
